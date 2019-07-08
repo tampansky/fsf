@@ -81,7 +81,7 @@ raneb(){
    sleep 0.25  
    echo -e $white "||$red                               /____/   $white||"
    sleep 0.25
-   echo $cyan"+++||Welcome To $blue Facebook $cyan Sky Force||+++"
+   echo $cyan"+++||Welcome To Facebook Sky Force||+++"
 }
 load
 raneb
