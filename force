@@ -146,6 +146,7 @@ wget $Link
 ("5")
 echo -e $green "(COMING SOON)"
 echo -e $cyan "SEDANG DALAM PROSES PEMBUATAN."
+sleep 5
 load
 ;;
 esac
