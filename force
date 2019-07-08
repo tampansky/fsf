@@ -1,0 +1,173 @@
+###############################
+## TOOLS GABUTS NO COPYRIGHT ##
+## Please Support Me to Learn##
+## PROGRAMMING AND SECURITY  ##
+###############################
+#colors
+blue='\e[1;34m'
+cyan='\e[0;36m'
+green='\e[0;34m'
+okegreen='\033[92m'
+lightgreen='\e[1;32m'
+grey="\033[0;37m"
+purple="\033[0;35m"
+yellow="\033[1;33m"
+Purple="\033[0;35m"
+Cafe="\033[0;33m"
+Fiuscha="\033[0;35m"
+mon="mon"
+lightcyan='\e[96m'
+white='\e[1;37m'
+nc="\e[0m"
+red='\e[1;31m'
+yellow='\e[1;33m'
+clear
+load(){
+    echo -e $red "Menghubungkan..."
+    sleep 0.15
+    clear
+    echo -e $red "Menghubungkan..."
+    sleep 0.15
+    clear
+    echo -e $red "Menghubungkan..."
+    sleep 0.15
+    clear
+    echo -e $red "Menghubungkan..."
+    sleep 0.15
+    clear
+    echo -e $red "Menghubungkan..."
+    sleep 0.15
+    clear
+    echo -e $red "Menghubungkan..."
+    sleep 0.15
+    clear
+    echo -e $red "Menghubungkan..."
+    sleep 0.15
+    clear
+    echo -e $red "Menghubungkan..."
+    sleep 0.15
+    clear
+    echo -e $red "Menghubungkan..."
+    sleep 0.15
+    clear
+    echo -e $red "Menghubungkan..."
+    sleep 0.15
+    clear
+    echo -e $red "Menghubungkan..."
+    sleep 0.15
+    clear
+    echo -e $red "Menghubungkan..."
+    sleep 0.15
+    clear
+    echo -e $red "Menghubungkan..."
+    sleep 0.15
+    clear
+    echo -e $red "Menghubungkan..."
+    sleep 0.15
+    clear
+}
+#naber
+raneb(){
+    load
+   echo -e $white "||$red _______________ _____________          $white||"
+   sleep 0.25
+   echo -e $white "||$red ___  ____/__  /___  ___/__  /______  __$white||"
+   sleep 0.25
+   echo -e $white "||$red __  /_   __  __ \____ \__  //_/_  / / /$white||"
+   sleep 0.25
+   echo -e $white "||$red _  __/   _  /_/ /___/ /_  ,<  _  /_/ / $white||"   
+   sleep 0.25
+   echo -e $white "||$red /_/      /_.___//____/ /_/|_| _\__, /  $white||"
+   sleep 0.25  
+   echo -e $white "||$red                               /____/   $white||"
+   sleep 0.25
+   echo $cyan"+++||Welcome To $blue Facebook $cyan Sky Force||+++"
+}
+#install
+install(){
+    load
+    echo -e $cyan "[!] Menginstall Curl [!]"
+    pkg install curl
+    sleep 1
+    clear
+    echo -e $cyan "[!] Menginstall wget [!]"    
+    pkg install wget 
+    sleep 1
+    clear    
+    echo -e $cyan "[!] Menginstall python [!]"
+    pkg install python python2 python3
+    sleep 1
+    echo -e $cyan "[!] Menginstall pip [!]"
+    pip install requests 
+    sleep 1
+    clear
+    echo -e $cyan "[!] Menginstall wget [!]"
+    pip install bs4
+}
+install
+load
+raneb
+echo 
+echo -e $red"[!]$white=+=+=+=+=+=+=+=+=+=+=+=+$red[!]"
+sleep 1
+echo -e $white"</>   Author $cyan: tampansky   </>"
+sleep 0.25
+echo -e "{> $green Whatsapp $nc:087887986528  <}"
+sleep 0.25
+echo -e $white"{>   Team $yellow: PSCT Official  $white <}"
+sleep 0.25
+echo -e $white"{>   Thanks To allah Swt    <}"
+sleep 0.25
+echo -e $red"</>Please Don't Recode Here<\>"
+sleep 0.25
+echo -e $red"[!]$white=+=+=+=+=+=+=+=+=+=+=+=+$red[!]"
+sleep 1
+echo ""
+echo -e $red"||======================||"
+echo -e $white"|| 1. MBF (Firman)      ||"
+echo -e $red"|| 2. FB jomblo         ||"
+echo -e $white"|| 3. Fb Sky Force      ||"
+echo -e $red"|| 4. Fb Foto Downloader||"
+echo -e $white"|| 5. Auto Follower     ||"
+echo -e $red"||======================||"
+echo -e $white"|| 0) Exit/Out/Keluar.  ||"
+echo -e $red"||======================||"
+read -p "[Fbsky]>:" lol
+case $lol in
+("0")
+echo -e $red"Thanks To Using Facebook Sky Force."
+;;
+("1")
+echo -e $red"menunggu sampai selesai"
+load
+sleep 1
+python2 mbf.py
+;;
+("2")
+echo -e $red"menunggu sampai selesai"
+load
+sleep 1
+python2 jomblo.py
+;;
+("3")
+echo -e $red"menunggu sampai selesai"
+load
+sleep 1
+python2 skyfb.py
+;;
+("4")
+echo -e $red"[!]note : link Harus Mempunyai extensinya agar Work[!]"
+echo -e "Massukan Link"
+read -p "[MASSUKAN]>" Link
+load
+sleep 1
+echo -e $cyan "Menunggu Hingga Selesai..."
+sleep 1
+wget $Link
+;;
+("5")
+echo -e $green "(COMING SOON)"
+echo -e $cyan "SEDANG DALAM PROSES PEMBUATAN."
+load
+;;
+esac
