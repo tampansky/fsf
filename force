@@ -95,14 +95,28 @@ install(){
     sleep 1
     clear    
     echo -e $cyan "[!] Menginstall python [!]"
-    pkg install python python2 python3
+    pkg install python 
     sleep 1
+    clear
+    echo -e $cyan "[!] Menginstall python2 [!]"
+    pkg install python2
+    sleep 1
+    clear
     echo -e $cyan "[!] Menginstall pip [!]"
     pip install requests 
     sleep 1
     clear
-    echo -e $cyan "[!] Menginstall wget [!]"
+    echo -e $cyan "[!] Menginstall bs4 [!]"
     pip install bs4
+    sleep 1
+    clear
+    echo -e $cyan "[!] Menginstall pip2 [!]"
+    pip2 install requests 
+    sleep 1
+    clear
+    echo -e $cyan "[!] Menginstall mechanize [!]"
+    pip2 install mechanize
+    clear
 }
 install
 load
