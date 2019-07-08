@@ -83,42 +83,6 @@ raneb(){
    sleep 0.25
    echo $cyan"+++||Welcome To $blue Facebook $cyan Sky Force||+++"
 }
-#install
-install(){
-    load
-    echo -e $cyan "[!] Menginstall Curl [!]"
-    pkg install curl
-    sleep 1
-    clear
-    echo -e $cyan "[!] Menginstall wget [!]"    
-    pkg install wget 
-    sleep 1
-    clear    
-    echo -e $cyan "[!] Menginstall python [!]"
-    pkg install python 
-    sleep 1
-    clear
-    echo -e $cyan "[!] Menginstall python2 [!]"
-    pkg install python2
-    sleep 1
-    clear
-    echo -e $cyan "[!] Menginstall pip [!]"
-    pip install requests 
-    sleep 1
-    clear
-    echo -e $cyan "[!] Menginstall bs4 [!]"
-    pip install bs4
-    sleep 1
-    clear
-    echo -e $cyan "[!] Menginstall pip2 [!]"
-    pip2 install requests 
-    sleep 1
-    clear
-    echo -e $cyan "[!] Menginstall mechanize [!]"
-    pip2 install mechanize
-    clear
-}
-install
 load
 raneb
 echo 
@@ -167,7 +131,7 @@ python2 jomblo.py
 echo -e $red"menunggu sampai selesai"
 load
 sleep 1
-python2 skyfb.py
+python skyfb.py
 ;;
 ("4")
 echo -e $red"[!]note : link Harus Mempunyai extensinya agar Work[!]"
