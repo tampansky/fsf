@@ -83,28 +83,6 @@ raneb(){
    sleep 0.25
    echo "+++||Welcome To Facebook Sky Force||+++"
 }
-#install
-install(){
-    load
-    echo -e $cyan "[!] Menginstall Curl [!]"
-    pkg install curl
-    sleep 1
-    clear
-    echo -e $cyan "[!] Menginstall wget [!]"    
-    pkg install wget 
-    sleep 1
-    clear    
-    echo -e $cyan "[!] Menginstall python [!]"
-    pkg install python python2 python3
-    sleep 1
-    echo -e $cyan "[!] Menginstall pip [!]"
-    pip install requests 
-    sleep 1
-    clear
-    echo -e $cyan "[!] Menginstall wget [!]"
-    pip install bs4
-}
-install
 load
 raneb
 echo 
