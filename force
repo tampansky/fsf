@@ -81,14 +81,36 @@ raneb(){
    sleep 0.25  
    echo -e $white "||$red                               /____/   $white||"
    sleep 0.25
-   echo $cyan"+++||Welcome To Facebook Sky Force||+++"
+   echo "+++||Welcome To Facebook Sky Force||+++"
 }
+#install
+install(){
+    load
+    echo -e $cyan "[!] Menginstall Curl [!]"
+    pkg install curl
+    sleep 1
+    clear
+    echo -e $cyan "[!] Menginstall wget [!]"    
+    pkg install wget 
+    sleep 1
+    clear    
+    echo -e $cyan "[!] Menginstall python [!]"
+    pkg install python python2 python3
+    sleep 1
+    echo -e $cyan "[!] Menginstall pip [!]"
+    pip install requests 
+    sleep 1
+    clear
+    echo -e $cyan "[!] Menginstall wget [!]"
+    pip install bs4
+}
+install
 load
 raneb
 echo 
 echo -e $red"[!]$white=+=+=+=+=+=+=+=+=+=+=+=+$red[!]"
 sleep 1
-echo -e $white"</>   Author $cyan: tampansky   </>"
+echo -e $white"</>   Author $cyan: tampansky   </>"$white
 sleep 0.25
 echo -e "{> $green Whatsapp $nc:087887986528  <}"
 sleep 0.25
@@ -103,7 +125,7 @@ sleep 1
 echo ""
 echo -e $red"||======================||"
 echo -e $white"|| 1. MBF (Firman)      ||"
-echo -e $red"|| 2. FB jomblo         ||"
+echo -e $red"|| 2. FB  Recover       ||"
 echo -e $white"|| 3. Fb Sky Force      ||"
 echo -e $red"|| 4. Fb Foto Downloader||"
 echo -e $white"|| 5. Auto Follower     ||"
@@ -125,13 +147,13 @@ python2 mbf.py
 echo -e $red"menunggu sampai selesai"
 load
 sleep 1
-python2 jomblo.py
+python2 fb.py
 ;;
 ("3")
 echo -e $red"menunggu sampai selesai"
 load
 sleep 1
-python skyfb.py
+python2 skyfb.py
 ;;
 ("4")
 echo -e $red"[!]note : link Harus Mempunyai extensinya agar Work[!]"
@@ -146,7 +168,7 @@ wget $Link
 ("5")
 echo -e $green "(COMING SOON)"
 echo -e $cyan "SEDANG DALAM PROSES PEMBUATAN."
-sleep 5
+sleep 10
 load
 ;;
 esac
