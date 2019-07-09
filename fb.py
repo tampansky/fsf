@@ -13,11 +13,11 @@ cls()
 os.system(['','color D'][os.name == 'nt'])
 
 print '''
-                SELAMAT DATANG
-                     DI
+               \033[31;1m||+SELAMAT DATANG+||
+                     ||+DI+||
                 Panthom Sky Cyber Team
-           CODE: BY TAMPANSKY
-     FACEBOOK RECOVERY PASSWORD ATTACKER
+                  CODE: BY TAMPANSKY
+          FACEBOOK RECOVERY PASSWORD ATTACKER
   
  _____              _                 _
 |  ___|_ _  ___ ___| |__   ___   ___ | | __
