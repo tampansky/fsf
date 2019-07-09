@@ -17,6 +17,50 @@ nc="\e[0m"
 red='\e[1;31m'
 yellow='\e[1;33m'
 clear
+load(){
+    echo -e $red "Menghubungkan..."
+    sleep 0.15
+    clear
+    echo -e $red "Menghubungkan..."
+    sleep 0.15
+    clear
+    echo -e $red "Menghubungkan..."
+    sleep 0.15
+    clear
+    echo -e $red "Menghubungkan..."
+    sleep 0.15
+    clear
+    echo -e $red "Menghubungkan..."
+    sleep 0.15
+    clear
+    echo -e $red "Menghubungkan..."
+    sleep 0.15
+    clear
+    echo -e $red "Menghubungkan..."
+    sleep 0.15
+    clear
+    echo -e $red "Menghubungkan..."
+    sleep 0.15
+    clear
+    echo -e $red "Menghubungkan..."
+    sleep 0.15
+    clear
+    echo -e $red "Menghubungkan..."
+    sleep 0.15
+    clear
+    echo -e $red "Menghubungkan..."
+    sleep 0.15
+    clear
+    echo -e $red "Menghubungkan..."
+    sleep 0.15
+    clear
+    echo -e $red "Menghubungkan..."
+    sleep 0.15
+    clear
+    echo -e $red "Menghubungkan..."
+    sleep 0.15
+    clear
+}
 #install
 install(){
     load
